@@ -36,6 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,14 +63,14 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(409, 39);
             this.label1.TabIndex = 1;
-            this.label1.Text = "Preferencias Estadisticas";
+            this.label1.Text = "Preferencias Estadísticas";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::AplicacionDesafio1.Properties.Resources.splash1;
-            this.pictureBox1.Location = new System.Drawing.Point(183, 108);
+            this.pictureBox1.Location = new System.Drawing.Point(192, 108);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(370, 256);
+            this.pictureBox1.Size = new System.Drawing.Size(344, 239);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -100,12 +101,24 @@
             this.label3.TabIndex = 4;
             this.label3.Text = "0";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(12, 350);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(306, 85);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Hecho Por:\r\n\r\nLorena Isabel Nájera Urbina - NU222221\r\nKevin Daniel Hernández Hern" +
+    "ández - HH213037\r\nJosé Mario Ayala Reyna - AR120420";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkSlateGray;
             this.ClientSize = new System.Drawing.Size(730, 495);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label2);
@@ -132,6 +145,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 

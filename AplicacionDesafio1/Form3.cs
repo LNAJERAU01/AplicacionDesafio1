@@ -114,7 +114,7 @@ namespace AplicacionDesafio1
                     pictureBox2.Image = Properties.Resources.goosebumps;
                     pictureBox3.Image = Properties.Resources.PerryMason;
 
-                    chart1.Titles.Add("Entretenimiento");
+                    chart1.Titles.Add("Libros");
                     chart1.Series["Series1"].Points.AddXY(tabs[0], listEstaL[0]);
                     chart1.Series["Series1"].Points.AddXY(tabs[1], listEstaL[1]);
                     chart1.Series["Series1"].Points.AddXY(tabs[2], listEstaL[2]);
@@ -173,7 +173,7 @@ namespace AplicacionDesafio1
                     pictureBox2.Image = Properties.Resources.java;
                     pictureBox3.Image = Properties.Resources.js;
 
-                    chart1.Titles.Add("Entretenimiento");
+                    chart1.Titles.Add("Programación");
                     chart1.Series["Series1"].Points.AddXY(tabs[0], listEstaP[0]);
                     chart1.Series["Series1"].Points.AddXY(tabs[1], listEstaP[1]);
                     chart1.Series["Series1"].Points.AddXY(tabs[2], listEstaP[2]);

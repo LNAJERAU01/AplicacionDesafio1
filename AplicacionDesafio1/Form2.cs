@@ -25,8 +25,6 @@ namespace AplicacionDesafio1
             listaUsuarios.Add(new Usuario("khernadez", "fjhgfdsa", "Entretenimiento"));
             listaUsuarios.Add(new Usuario("mcastillo", "1234asdf", "Libros"));
 
-            textBox1.Text = "jgarcia";
-            textBox2.Text = "12345678";
         }
 
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
